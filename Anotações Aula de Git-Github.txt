@@ -1,0 +1,36 @@
+Comandos básicos no Windows para:
+ - Navegar por pastas "cd 'nome da pasta' "
+
+ - Listar diretorios contidos na pasta "Dir"
+
+ - Voltar uma navegação "cd .."
+
+ - Limpar o terminal "clear"
+
+ - Criar pastas "mkdir 'nome da nova pasta' "
+
+ - Criar arquivos dentro de pastas "echo > 'nome do arquivo' "
+
+ **Tipos de objetos no GIT**
+	BLOB - Armazena metadados que são tipos de objeto, tamanho da string, tamanho do arquivo, 
+entre outros... 
+
+	Tree - Vai ser responsável por montar toda a estrutura e localização do arquivo (Sha1, nome, blob, etc), 
+apontado para blobs ou também para outras árvores. 
+
+ 	Commit - Armazena os comandos contidos em Tree + autor e mensagem do arquivo. 
+
+OBS: Se houver alguma alteração em um blob, ficará visível na Tree, que por consequência também ficará no 
+commit.
+
+** Chave SSH e Token ** 
+	Chave SSH - Estabelece uma conexão segura e encriptada entre duas maquinas (chave publica e privada). 
+
+	Token - Outra forma de gerar chave de acesso para poder acessar repositórios no GitHub. 
+
+** Comandos Git ** 
+	Git init - Inicializar repositórios do git dentro de pastas. 
+
+	Git add - tranfere os repositórios para a área Stage (a grosso modo é a área externa visível do git). 
+
+	Git commit - Comentas os arquivos adicionados. 
